@@ -2,14 +2,6 @@
 	h1{
 		text-align:center;
 	}
-
-
-
-
-
-
-
-
 .topnav {
   overflow: hidden;
   background-color: white;
@@ -41,9 +33,6 @@
   right: 0;
   top: 0;
 }
-@media only screen and (max-width: 992px){
 
-
-}
 
 }
