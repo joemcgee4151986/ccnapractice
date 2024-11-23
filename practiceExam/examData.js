@@ -1,8 +1,6 @@
 import { sculptureList } from './practiceQuestions.js';
 
-<button onClick={handleMoreClick}>
-        {showMore ? 'Hide' : 'Show'} details
-      </button>
+
 
 // Example of rendering the first sculpture's name and artist
 const container = document.getElementById('root');
