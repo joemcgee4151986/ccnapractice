@@ -1,4 +1,4 @@
-import { sculptureList } from './practiceQuestions.jsx';
+import { sculptureList } from './practiceQuestions.js';
 
 // Select the container
 const container = document.getElementById('root');
