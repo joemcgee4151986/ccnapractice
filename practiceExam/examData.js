@@ -1,4 +1,4 @@
-import { sculptureList } from './practiceQuestions.jsx';
+import { sculptureList } from './practiceQuestions.js';
 
 
 
