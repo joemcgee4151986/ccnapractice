@@ -1,0 +1,42 @@
+/* Hide the checkbox */
+#show {
+  display: none;
+}
+
+/* Default: Hide the content */
+#root {
+  display: none;
+}
+
+/* Show content when checkbox is checked */
+#show:checked ~ #root {
+  display: block;
+}
+
+/* Hide "Read more" when checkbox is checked */
+#show:checked ~ #readMore {
+  display: none;
+}
+
+/* Hide "Hide" label by default */
+#hide {
+  display: none;
+}
+
+/* Show "Hide" label when checkbox is checked */
+#show:checked ~ #hide {
+  display: inline;
+}
+
+/* Styling for labels */
+label {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+#hide {
+  color: red;
+}

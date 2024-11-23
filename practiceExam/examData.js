@@ -1,12 +1,13 @@
-import { sculptureList } from './practiceQuestions.js';
+import { sculptureList } from './practiceQuestions.jsx';
 
-
-
-// Example of rendering the first sculpture's name and artist
+// Select the container
 const container = document.getElementById('root');
+
+// Render the sculpture data dynamically
+const sculpture = sculptureList[0];
 container.innerHTML = `
-  <h1>${sculptureList[0].name}</h1>
-  <h2> ${sculptureList[0].question}</h2>
-  <p>${sculptureList[0].answer}</p>
-  <img src="${sculptureList[0].url}" alt="${sculptureList[0].alt}" />
+  <h1>${sculpture.name}</h1>
+  <h2>${sculpture.question}</h2>
+  <p>${sculpture.answer}</p>
+  <img src="${sculpture.url}" alt="${sculpture.alt}" />
 `;
