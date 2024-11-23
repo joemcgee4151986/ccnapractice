@@ -1,24 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  
   <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-lg+IwTX7RfI7YueX8YtwHjb94vdqP1X8VUg3GBXOSFM=';">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>CCNA Chapter Quizzes</title>
+</head>
+<body>
   <div id="container">
-
     <header>
       <div class="navbar">
         <h2>CCNA Chapter Quizzes</h2>
-
         <div class="dropdown">
           <button class="dropbtn">
             Practice Exam
-
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-
             <a href="/chapterOnePractice.html" class="nav-link">Chapter 1 Practice</a>
             <a href="practiceExam/chapterOnePractice.html" class="nav-link">Chapter 2 Practice</a>
           </div>
@@ -29,21 +30,15 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-
-           <a href="/chapter-1/chapter-1.html" class="nav-link">Chapter 1</a>
-           <a href="/chapter-2/chapter-2.html" class="nav-link">Chapter 2</a>
+            <a href="/chapter-1/chapter-1.html" class="nav-link">Chapter 1</a>
+            <a href="/chapter-2/chapter-2.html" class="nav-link">Chapter 2</a>
           </div>
         </div>
-
       </div>
       <div class="topnav">
         <h2 class="CCNA">CCNA Chapter Quizzes</h2>
-
-
         <a class="active"></a>
-
         <div id="myLinks">
-
           <div class="row">
             <div class="column">
               <h3 class="nav-link" id="menu">Chapter Exams</h3>
@@ -55,31 +50,28 @@
               <a href="chapterOnePractice.html" class="nav-link">Practice 1</a>
               <a href="chapter-2/chapter-2.html" class="nav-link">Practice 2</a>
             </div>
-
           </div>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
           <i class="fa fa-bars"></i>
         </a>
-
-
-        <footer>
-          <!--Code by <a href="https://codepen.io/kklumpp13/pen/xVwBKE">kklump13</a>
-          <p>Menu bar by <a href="https://www.w3schools.com">w3schools</a></p>
-        </footer>
       </div>
-  -->
-          <script>
-            function myFunction() {
-              let x = document.getElementById("myLinks");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
-            }
-          </script>
     </header>
+    <footer>
+      <p>Code by <a href="https://codepen.io/kklumpp13/pen/xVwBKE">kklump13</a></p>
+      <p>Menu bar by <a href="https://www.w3schools.com">w3schools</a></p>
+    </footer>
   </div>
 
-</head>
+  <script>
+    function toggleMenu() {
+      const x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
