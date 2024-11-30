@@ -1,4 +1,4 @@
-import { sculptureList } from './practiceQuestions.js';
+import { sculptureList } from '../practiceQuestions.js';
 
 // Select the container
 const container = document.getElementById('root');
@@ -7,7 +7,7 @@ const container = document.getElementById('root');
 const sculpture = sculptureList[0];
 container.innerHTML = `
  
-  <p>${sculpture.answer}</p>
+  <p>${sculpture2.answer2}</p>
 
   <img src="${sculpture.url}" alt="${sculpture.alt}" />
 `;

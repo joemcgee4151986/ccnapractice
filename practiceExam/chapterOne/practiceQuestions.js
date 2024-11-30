@@ -10,8 +10,8 @@ export const sculptureList = [{
 
   /*name: 'Practice questions',
   question: '1) A networking model is sometimes called what?',*/
-
-  url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-  alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
+ answer2: 'You.',
+  url2: 'https://i.imgur.com/Mx7dA2Y.jpg',
+  alt2: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
 
 }]
