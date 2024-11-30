@@ -1,7 +1,7 @@
-import { sculptureList } from '../practiceQuestions.js';
+import { sculptureList } from "../practiceQuestions.js";
 
 // Select the container
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 
 // Render the sculpture data dynamically
 const sculpture = sculptureList[0];
