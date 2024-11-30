@@ -7,7 +7,7 @@ const container = document.getElementById('root');
 const sculpture = sculptureList[0];
 container.innerHTML = `
  
-  <p>${sculpture2.answer2}</p>
+  <p>${sculpture.answer2}</p>
 
   <img src="${sculpture.url}" alt="${sculpture.alt}" />
 `;
