@@ -1,6 +1,4 @@
 export const sculptureList = [{
- /* name: 'Practice questions',
-  question: '1) A networking model is sometimes called what?',*/
   answer: 'A networking architecture or networking blueprint.',
   answer2: 'You.',
   url: 'https://i.imgur.com/Mx7dA2Y.jpg',
