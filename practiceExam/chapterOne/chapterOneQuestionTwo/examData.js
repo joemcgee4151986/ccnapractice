@@ -9,5 +9,5 @@ container.innerHTML = `
  
   <p>${sculpture.answer2}</p>
 
-  <img src="${sculpture.url}" alt="${sculpture.alt}" /> 
+  <img src="${sculpture.url2}" alt="${sculpture.alt}" /> 
 `;
