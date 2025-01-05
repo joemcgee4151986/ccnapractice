@@ -23,7 +23,7 @@ formElement.onsubmit = function submitAnswers(){
 	}
 	
 	// Set Correct Answers
-	let answers = ["d","b","a","c","b","b","a","d","b"];
+	let answers = ["a","c","b","b","b","b","c","b","d"];
 	
 	// Check Answers
 	for(i = 1; i <= total;i++){
