@@ -14,14 +14,14 @@ formElement.onsubmit = function submitAnswers(){
  	    q7 = document.forms["quizForm"]["q7"].value;
 	    q8 = document.forms["quizForm"]["q8"].value;
 	    q9 = document.forms["quizForm"]["q9"].value;
-		q9 = document.forms["quizForm"]["q10"].value;
-		q9 = document.forms["quizForm"]["q11"].value;
-		q9 = document.forms["quizForm"]["q12"].value;
-		q9 = document.forms["quizForm"]["q13"].value;
-		q9 = document.forms["quizForm"]["q14"].value;
-		q9 = document.forms["quizForm"]["q15"].value;
-		q9 = document.forms["quizForm"]["q16"].value;
-		q9 = document.forms["quizForm"]["q17"].value;
+		q10 = document.forms["quizForm"]["q10"].value;
+		q11 = document.forms["quizForm"]["q11"].value;
+		q12 = document.forms["quizForm"]["q12"].value;
+		q13 = document.forms["quizForm"]["q13"].value;
+		q14 = document.forms["quizForm"]["q14"].value;
+		q15 = document.forms["quizForm"]["q15"].value;
+		q16 = document.forms["quizForm"]["q16"].value;
+		q17 = document.forms["quizForm"]["q17"].value;
 	// Validation
 	for(i = 1; i <= total;i++){
 		if(eval('q'+i) === null || eval('q'+i) === ''){
