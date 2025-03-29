@@ -1,7 +1,7 @@
 let formElement = document.forms['quizForm'];
 
 formElement.onsubmit = function submitAnswers(){
-	let total = 9;
+	let total = 17;
 	let score = 0;
 	
 	// Get User Input
@@ -14,6 +14,14 @@ formElement.onsubmit = function submitAnswers(){
  	    q7 = document.forms["quizForm"]["q7"].value;
 	    q8 = document.forms["quizForm"]["q8"].value;
 	    q9 = document.forms["quizForm"]["q9"].value;
+		q9 = document.forms["quizForm"]["q10"].value;
+		q9 = document.forms["quizForm"]["q11"].value;
+		q9 = document.forms["quizForm"]["q12"].value;
+		q9 = document.forms["quizForm"]["q13"].value;
+		q9 = document.forms["quizForm"]["q14"].value;
+		q9 = document.forms["quizForm"]["q15"].value;
+		q9 = document.forms["quizForm"]["q16"].value;
+		q9 = document.forms["quizForm"]["q17"].value;
 	// Validation
 	for(i = 1; i <= total;i++){
 		if(eval('q'+i) === null || eval('q'+i) === ''){
@@ -23,7 +31,7 @@ formElement.onsubmit = function submitAnswers(){
 	}
 	
 	// Set Correct Answers
-	let answers = ["d","f","a","g","b","b","a","d","b"];
+	let answers = ["c","d","a","g","b","b","a","d","b"];
 	
 	// Check Answers
 	for(i = 1; i <= total;i++){
