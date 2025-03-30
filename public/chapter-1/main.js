@@ -33,11 +33,11 @@ formElement.onsubmit = function submitAnswers(){
 	}
 	
 	// Set Correct Answers
-	let answers = ["c","d","a","g","b","b","a","d","b","a"];
+	let answers = ["c","d","a","d","c","a","a","b","b","a"];
 	
 	// Check Answers
 	for(i = 1; i <= total;i++){
-		if(eval('q'+i) === answers[i - 1]){
+		if(eval('q'+ i) === answers[i - 1]){
 			score++;
 		}
 	}
