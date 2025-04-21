@@ -3,7 +3,7 @@ export const practiceQuestions = [
     answer: "A networking architecture or networking blueprint.",
     answer2: "Application, Transport, Network, Data-link, Physical.",
     answer3:"Encapsulation refers to putting headers around some data. Basically, it's like wrapping a gift. ",
-    answer4:"",
+    answer4:"Servers and clients.",
     answer5:"",
     answer6:"",
     url: "https://i.imgur.com/wqijLD4.jpg",

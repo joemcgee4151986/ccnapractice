@@ -7,9 +7,9 @@ const container = document.getElementById("root");
 const renderQuestion = (question) => { 
   return`
  
-  <p>${question.answer2}</p>
+  <p>${question.answer4}</p>
 
-  <img src="${question.url2}"  /> 
+ 
 `;
 };
 
