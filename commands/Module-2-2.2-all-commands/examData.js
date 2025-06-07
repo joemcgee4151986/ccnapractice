@@ -1,11 +1,11 @@
-import { practiceQuestions } from "../practiceQuestions.js"
+import { practiceQuestions } from "../practiceQuestions.js";
 
 const container = document.getElementById("root");
 
 const renderQuestion = (question) => {
   return `
  
- <img src="${question.url}"  /> 
+  <p>${question.answerCommands}</p>
 
 `;
 };
