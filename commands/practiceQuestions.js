@@ -7,7 +7,7 @@ export const practiceQuestions = [
     answerCommands:"Enable allows you to enter privileged exec mode when you're in user exec mode You will have access more additional commands. Disable return you to user exec mode when you're done.",
     answer5:"",
     answer6:"",
-    url: "https://drive.google.com/file/d/1sfCkTu3lZfhKHdoV68gl-wekpb5OWefc/view?usp=sharing",
+    url: "https://imgur.com/a/FHWTOIV",
     /*
     url: "https://drive.google.com/file/d/1sfCkTu3lZfhKHdoV68gl-wekpb5OWefc/view?usp=sharing,
     url2: "https://i.imgur.com/ZuP26kh.jpg",
