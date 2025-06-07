@@ -5,7 +5,7 @@ const container = document.getElementById("root");
 const renderQuestion = (question) => {
   return `
  
-  <p>${question.answeriosModes}</p>
+  <img src="${question.url4}"  /> 
 
 `;
 };
