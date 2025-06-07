@@ -9,7 +9,8 @@ export const practiceQuestions = [
     answer6:"",
     url: "https://i.imgur.com/cdLncKy.jpeg",
     url2: "https://i.imgur.com/s9TDIRv.jpeg",
-    url3: "https://i.imgur.com/bZ3E6wY.jpg",
-    */
+    url3: "https://i.imgur.com/yhbLInB.jpeg",
+    url4:
+    
   },
 ];
