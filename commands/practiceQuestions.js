@@ -7,7 +7,8 @@ export const practiceQuestions = [
     url5: "https://i.imgur.com/3yakGBd.jpeg",
     url6: "https://i.imgur.com/glv7UCv.jpeg",
     url7: "https://i.imgur.com/Wu8iI46.jpeg",
-    url8: "blob:https://imgur.com/d9af5fed-26e0-4a7c-a0f8-3f5746a04713"
+    url8: "blob:https://imgur.com/d9af5fed-26e0-4a7c-a0f8-3f5746a04713",
+    url9: "blob:https://imgur.com/d893d5ab-f5b1-413f-b7e7-3c5b0363a518"
 
     
   }
